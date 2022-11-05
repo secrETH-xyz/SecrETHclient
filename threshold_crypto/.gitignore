@@ -1,0 +1,19 @@
+# Eclipse and IDEA
+
+.metadata/
+.classpath
+.project
+.settings/
+bin/
+.idea/
+
+# Python
+
+__pycache__/
+venv
+tmp
+.coverage
+
+# eval
+
+eval/eval-*
