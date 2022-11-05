@@ -9,7 +9,7 @@ signers_index = 0
 key_share = key_shares[signers_index]
 
 # get encrypted_message from the blockchain
-message = 'Some secret message to be encrypted!' 
+message = 'Some secret message to be encrypted :)' 
 encrypted_message = encrypt_message(message, pub_key)
 encrypted_message_C1_x = str(encrypted_message.C1.x)
 encrypted_message_C1_y = str(encrypted_message.C1.y)
